@@ -69,3 +69,6 @@ debug: copy
 		-curses \
 		-S -s
 
+mon:
+	exec telnet 127.0.0.1 5575
+
